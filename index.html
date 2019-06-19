@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Best Owls</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-info">  
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#section1"><h6>Home</h6></a>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2"><h6>About Us</h6></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3"><h6>Flavors</h6></a>
+      </li>
+    </ul>
+  </nav>
+  <!--Carousel-->
+  <div id="section1" class="container-fluid bg-light" style="padding-top:70px;padding-bottom:70px">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="http://colorate.azurewebsites.net/SwatchColor/604439">
+              <div class="carousel-caption">
+                <h3>The Best Owls Coffee</h3>
+                <p>We're the best!</p>
+                <button class="btn btn-danger">Place your reservation today!</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://ak7.picdn.net/shutterstock/videos/8388997/thumb/10.jpg" alt="A woman enjoying some coffee">
+            </div>
+            <div class="carousel-item">
+              <img src="owlcoffee.jpeg" alt="An owl drinking coffee">
+            </div>
+          </div>
+          
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+  <!--Section 2-->
+  <div id="section2" class="container-fluid bg-light" style="padding-top:70px;padding-bottom:70px">
+   <div class="jumbotron">
+     <h1>The Best Owls Coffee</h1>
+     <p>Our coffee is the best! We have many amazing locations. You can even make reservations to get into our restauraunts at a certain time and have delicious hot coffee waiting for you. You should go out today to buy our fresh coffee!</p>
+ <!-- Button to Open the Modal -->
+ <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+  Place Reservation
+</button>
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title blacktext">Place Reservation</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body blacktext">
+        <form class="form-inline" action="/action_page.php">
+          <label for="email">Name:</label>
+          <input type="email" class="form-control" id="email">
+          <label for="pwd">Date and Time:</label>
+          <input type="email" class="form-control" id="pwd">
+          <label for="creditcard">Credit Card Number:</label>
+          <input type="password" class="form-control" id="creditcard">
+        </form>
+      </div>
+      
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Submit</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+<h3>Our Promise</h3>
+    <p>Our coffee is made with natural, healthy ingredients. It is always fresh and delicious.</p>
+</div>
+  <!--Section 3-->
+  <div id="section3" class="container-fluid bg-light" style="padding-top:70px;padding-bottom:70px">
+    <h1>Flavors</h1>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-info">Plain black</li>
+        <li class="list-group-item list-group-item-info">Latte</li>
+      <li class="list-group-item list-group-item-info">Espresso</li>
+      <li class="list-group-item list-group-item-info">Cappuccino</li>
+      <li class="list-group-item list-group-item-info">Mocha</li>
+      <li class="list-group-item list-group-item-info">Americano</li>
+</ul>
+</div>
+</div>
+<!--Footer-->
+<footer>
+	<div class="container-fluid">
+		<div class="row text-center">
+<div class="col-12">
+	<img src="owlcoffee.jpeg" alt="An owl drinking coffee">
+	<hr class="light">
+	<p>123-456-7890</p>
+	<p>the_best_owls@email.com</p>
+	<p>City,State,000000</p>
+</div>
+<div class="col-12">
+	<hr  class="light">
+	<h5>Our Hours</h5>
+	<hr class="light">
+	<p>Monday: 9am - 5pm</p>
+	<p>Saturday: 10am - 4pm</p>
+	<p>Sunday: Closed</p>
+</div>
+<div class="col-12">
+		<hr  class="light">
+		<h5>Service Area</h5>
+		<hr class="light">
+		<p>City,State,000000</p>
+
+		<p>City,State,000000</p>
+
+		<p>City,State,000000</p>
+
+		<p>City,State,000000</p>
+
+
+	</div>
+	<div class="col-12">
+		<hr class="light">
+		<h5>&copy; The Best Owls</h5>
+	</div>
+		</div>
+		</div>
+</footer>
+</body>
+</html>

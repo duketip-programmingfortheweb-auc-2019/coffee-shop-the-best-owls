@@ -1,0 +1,50 @@
+.carousel-caption {
+    font-size: 300%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 2px 2px 4px #000000;
+}
+.jumbotron {
+    background-color: #1A5E63 !important;
+    color: white !important;
+}
+.carousel img {
+    width: 100%;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important; 
+    font-size: 2em !important;
+}
+footer {
+    background-color: #028090;
+    padding-top: 10%;
+}
+footer img {
+    width: 100%;
+    height:auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: cursive;
+}
+.blacktext {
+    color: black
+}
+@media screen and (max-width: 992px) {
+    body, .jumbotron {
+      font-size: 1.25em !important;
+    }
+    .carousel-caption {
+        font-size: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    body, .jumbotron {
+      font-size: 1em !important;
+    }
+    .carousel-caption {
+        font-size: 75%;
+    }
+    .carousel img {
+        padding-top: 20%;
+    }
+  }
